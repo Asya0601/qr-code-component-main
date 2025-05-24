@@ -19,23 +19,28 @@ main{
     display: flex;
     flex-direction: column;
     row-gap: 1.3rem;
-    width: 310px;
-    height: 510px;
+    width: 18rem;
+    height:28rem;
     align-items: center;
     justify-content: center;
     margin: 16rem auto;
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #fff;
     border-radius: 4%/4%;
 }
 
-#text-section p {
+#text-section {
+    width: 90%;
+}
+
+p {
     margin: 1rem auto;
     color: gray;
+    font-size: 0.9rem;
 }
 
 h1{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 img{
