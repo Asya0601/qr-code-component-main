@@ -19,7 +19,8 @@ main{
     display: flex;
     flex-direction: column;
     row-gap: 1.3rem;
-    width: 350px;
+    width: 310px;
+    height: 510px;
     align-items: center;
     justify-content: center;
     margin: 16rem auto;
