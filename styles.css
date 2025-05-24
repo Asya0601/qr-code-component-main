@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Mrs+Saint+Delafield&family=My+Soul&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&display=swap');
 
+:root{
+     --mainColor:hsl(212, 45%, 89%);
+}
+
 *{
-    margin: auto;
     box-sizing: border-box;
     font-size: 15px;
     font-family: "Outfit", sans-serif;
@@ -12,7 +15,7 @@
 }
 
 body{
-    background-color: hsl(212, 45%, 89%);
+    background-color:var(--mainColor);
 }
 
 main{
