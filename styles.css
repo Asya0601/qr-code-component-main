@@ -22,8 +22,8 @@ main{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-    width: 18rem;
-    height:29rem;
+    width: 20rem;
+    height:31rem;
     align-items: center;
     justify-content: center;
     margin: 16rem auto;
@@ -39,11 +39,11 @@ main{
 p {
     margin: 1rem auto;
     color: gray;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 h1{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 img{
